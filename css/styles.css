@@ -1,4 +1,40 @@
 #welcome {
-  background-image: url("images/backgrounds/h_img.jpg");
+  background-image: url("background.jpg");
   background-color: #daa520;
+  text-align: center;
+  color: white;
+
+}
+#mouse {
+  padding-top: 5rem;
+  padding-bottom: 4rem:
+}
+
+#about {
+  text-align: center;
+  padding: 2rem;
+}
+#services {
+  text-align: center;
+  padding: 3rem;
+  background-image:url('images/backgrounds/background.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+h4 {
+  text-align: justify;
+}
+.icons {
+  align-items: center;
+}
+#whatwedo {
+  text-align: center;
+}
+#portfolio {
+  ;
+}
+.portfolio {
+  align-items: center;
 }

@@ -1,0 +1,45 @@
+h1 {
+  text-align: center;
+}
+.welcome {
+  background-image: url(images/backgrounds/h_img.jpg);
+
+}
+.about-us {
+}
+.service {
+  background-image: url (images/backgrounds/s_image.jpg);
+  text-align: center;
+}
+.work {
+
+}
+.portfolio{
+
+}
+.contact{
+  background-image: url(images/backgrounds/c_image.jpg);
+
+}
+.footer{
+
+}
+
+h6
+{text-align: center;}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+  align-items: center;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+
+  width: 25%;
+}
+p {
+  text-align: center;
+}

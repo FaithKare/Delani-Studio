@@ -4,20 +4,20 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
+  <script src="js/scripts.js"></script>
+
   <!-- CSS
   ================================================== -->
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/bootstrap.css">
 
-  <! -- script
+  <! -- fonts
   ================================================== -->
-  <script src="js/modernizr.js"></script>
-  <script src="js/pace.min.js"></script>
-
+  <link href="https://fonts.googleapis.com/css?family=Comfortaa|Montserrat|Mukta|Poppins|Raleway&display=swap" rel="stylesheet">
 
   <title>Delani Studio</title>
 </head>
-<body>
+<body id = "delani1">
   <div class = "container"
   <div id = "welcome">
     <img src="images/logo/logo.png" alt="logo">
@@ -26,8 +26,8 @@
       <h6>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</h6>
 
       <img src="images/mouse_click.png" alt="logo" id = "mouse">
-
     </div>
+
     <div id = "about">
       <h2>ABOUT US</h2>
       <p>
@@ -36,17 +36,15 @@
         <br /> We start each project by understanding your business goals, the user's needs and the product requirements
         <br> Then we help translate them into effective and elegant solutions.
 
-
       </div>
 
-      <div id = "services" style=”background-image:url('images/backgrounds/background.jpg')” >
+      <div id = "services" >
         <h2>SERVICES</h2>
         <p>
           Before we sign a contract or write a line of code, our team will spend the necessary time needed to understand your product vision
           <br>The outcome of this scoping session is proposal or high-level statement of work.
           <br />based on your requirements, we can provide a complete offering or just the pieces you need.
         </p>
-
       </div>
 
       <div id = "whatwedo">
@@ -54,43 +52,55 @@
         <div class="container">
           <div class = "row">
             <div class = "col-4">
-              <div id = "design">
-                <img src="images/icons/services_icons/design_icon.png" alt="Design" class="icons">
-                <div class="container">
-                  <h4><b>DESIGN</b></h4>
-                </div>
-              </div>
-            </div>
+              <img src="images/icons/services_icons/design_icon.png" alt="Design" class="icons" id = "design">
+              <div class="container"
 
-            <div class = "col 4">
-              <div id = "dev">
-                <img src="images/icons/services_icons/dev_icon.png" alt="Development" class="icons">
-                <div class="container">
-                  <h4><b>DEVELOPMENT</b></h4>
-                </div>
-              </div>
-            </div>
 
-            <div class = "col-4">
-              <div id = "product">
-                <img src="images/icons/services_icons/product_icon.png" alt="Product Management" class = "icons">
-                <div class="container">
-                  <h4><b>PRODUCT MANAGEMENT</b></h4>
-                </div>
-              </div>
-            </div>
 
+
+              <h4><b>DESIGN</b></h4>
+              <p id = "designp">
+                Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.
+                Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.
+              </p>
+
+            </div>
+          </div>
+
+          <div class = "col 4">
+            <img src="images/icons/services_icons/dev_icon.png" alt="Development" class="icons" id = "dev">
+            <div class="container">
+              <h4><b>DEVELOPMENT</b></h4>
+
+              <p id ="devp">
+                All engineers are fluent in the latest enterprise, mobile and web development technologies.
+                They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.
+              </p>
+            </div>
+          </div>
+
+
+          <div class = "col-4">
+            <img src="images/icons/services_icons/product_icon.png" alt="Product Management" class = "icons" id = "prod">
+            <div class="container">
+              <h4><b>PRODUCT MANAGEMENT</b></h4>
+              <p id = "prodp">
+                Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live.
+                This iterative process allows for changes as business requirements evolve.
+              </p>
+            </div>
           </div>
         </div>
+
       </div>
+    </div>
 
-      <div id = "portfolio">
-
-        <h2>PORTFOLIO</h2>
-
+    <!--<div id = "portfolio">
+      <h2>PORTFOLIO</h2>
+      <div id = "workdone">
         <div class = "row">
-          <div class = "column">
-            <div class = "html55">
+          <div class = "col-3">
+            <div class = "card">
               <img src="portfolio/work4.jpg" alt="work4" style="width:100%">
               <div class="container">
                 <h4><b>John Doe</b></h4>
@@ -99,7 +109,7 @@
             </div>
           </div>
 
-          <div class = "column">
+          <div class = "col-3">
             <div class = "card">
               <img src="portfolio/work3.jpg" alt="work3" style="width:100%">
               <div class="container">
@@ -109,7 +119,7 @@
             </div>
           </div>
 
-          <div class = "column">
+          <div class = "colu-3">
             <div class = "card">
               <img src="portfolio/work2.jpg" alt="work2" style="width:100%">
               <div class="container">
@@ -119,7 +129,7 @@
             </div>
           </div>
 
-          <div class = "column">
+          <div class = "col-3">
             <div class = "card">
               <img src="portfolio/work1.jpg" alt="work1" style="width:100%">
               <div class="container">
@@ -134,7 +144,7 @@
         <div class = "row">
           <div class = "column">
             <div class = "html55">
-                <img src="portfolio/work5.jpg" alt="work5" style="width:100%">
+              <img src="portfolio/work5.jpg" alt="work5" style="width:100%">
               <div class="container">
                 <h4><b>John Doe</b></h4>
                 <p>Architect & Engineer</p>
@@ -154,8 +164,8 @@
 
           <div class = "column">
             <div class = "card">
-  <img src="portfolio/work7.jpg" alt="work7" style="width:100%">
-                <div class="container">
+              <img src="portfolio/work7.jpg" alt="work7" style="width:100%">
+              <div class="container">
                 <h4><b>John Doe</b></h4>
                 <p>Architect & Engineer</p>
               </div>
@@ -172,18 +182,51 @@
             </div>
           </div>
         </div>
-
       </div>
+    </div> -->
 
     <div id = "contact">
-      <<h2>CONTACT US</h2>
+
+      <h2>CONTACT US</h2>
+
+      <div class="container">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
 
     </div>
 
     <div id = "footer">
+      <h5>DELANI STUDIO <br> 2019</h5>
 
     </div>
-  </div>
 
+  </div>
+</div>
+
+
+
+<! -- script
+================================================== -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="crossorigin="anonymous"></script>
+<script src="js/scripts.js"></script>
 </body>
 </html>

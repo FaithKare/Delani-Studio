@@ -1,33 +1,22 @@
 
-$(document).ready(function(){
-  $("#dev").click(function(){
-    $("#devp").toggle();
-      $("#devp").toggle();
-  });
-};
 
-$(document).ready(function(){
-  $("#design").click(function(){
+$(document).ready(function() {
+  $(".design").click(function() {
+    $("#design-hidden").toggle();
     $("#designp").toggle();
-      $("#designp").toggle();
   });
-};
+});
 
-$(document).ready(function(){
-  $("#prod").click(function(){
+$(document).ready(function() {
+  $(".dev").click(function() {
+    $("#dev-hidden").toggle();
+    $("#devp").toggle();
+  });
+});
+
+$(document).ready(function() {
+  $(".prod").click(function() {
+    $("#prod-hidden").toggle();
     $("#prodp").toggle();
-      $("#prodp").toggle();
-  });
-};
-
-
-
-
-
-$(document).ready(function(){
-  $("#work1").hover(function(){
-    $().css("display", "inline");
-    }, function(){
-    $(this).css(back"background-color", "pink");
   });
 });

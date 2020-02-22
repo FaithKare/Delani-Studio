@@ -4,12 +4,14 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <script src="js/scripts.js"></script>
-
   <!-- CSS
   ================================================== -->
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/bootstrap.css">
+
+  <!-- icons
+  ================================================== -->
+  <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
 
   <!-- fonts
   ================================================== -->
@@ -21,7 +23,7 @@
   <div class = "welcome">
     <img src="images/logo/logo.png" alt="logo" id="logo">
     <h1>WELCOME </h1>
-    <h1>TO DELANi STUDIO </h1>
+    <h1>TO DELANI STUDIO </h1>
     <h6>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</h6>
 
     <img src="images/mouse_click.png" alt="logo" id = "mouse">
@@ -48,40 +50,37 @@
 
     <div class = "whatwedo">
       <h2>WHAT WE DO</h2>
-      <div class="container">
+      
         <div class = "row">
           <div class = "col-4">
-            <img src="images/icons/services_icons/design_icon.png" alt="Design" class="icons" id = "design">
-            <div class="container">
-              <h4><b>DESIGN</b></h4>
-              <p id = "designp" class= "col4">
-                Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.
-                Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.
-              </p>
-            </div>
+
+            <img src="images/icons/services_icons/design_icon.png" alt="Design" class="design" id = "design-hidden">
+            <h4><b>DESIGN</b></h4>
+            <p id = "designp" class= "design">
+              Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.
+              Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.
+            </p>
+
           </div>
 
           <div class = "col 4">
-            <img src="images/icons/services_icons/dev_icon.png" alt="Development" class="icons" id = "dev">
-            <div class="container">
-              <h4><b>DEVELOPMENT</b></h4>
-              <p id ="devp" class= "col4">
-                All engineers are fluent in the latest enterprise, mobile and web development technologies.
-                They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.
-              </p>
-            </div>
+            <img src="images/icons/services_icons/dev_icon.png" alt="Development" class="dev" id = "dev-hidden">
+            <h4><b>DEVELOPMENT</b></h4>
+            <p id ="devp" class= "dev">
+              All engineers are fluent in the latest enterprise, mobile and web development technologies.
+              They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.
+            </p>
           </div>
 
 
+
           <div class = "col-4">
-            <img src="images/icons/services_icons/product_icon.png" alt="Product Management" class = "icons" id = "prod">
-            <div class="container">
-              <h4><b>PRODUCT MANAGEMENT</b></h4>
-              <p id = "prodp" class= "col4">
-                Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live.
-                This iterative process allows for changes as business requirements evolve.
-              </p>
-            </div>
+            <img src="images/icons/services_icons/product_icon.png" alt="Product Management" class = "prod" id = "prod-hidden" />
+            <h4><b>PRODUCT MANAGEMENT</b></h4>
+            <p id = "prodp" class= "prod">
+              Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live.
+              This iterative process allows for changes as business requirements evolve.
+            </p>
           </div>
         </div>
 
@@ -204,22 +203,28 @@
     </form>
   </div>
 
-  
+
 </div>
 
 <div class = "footer">
-
-  <a href="http://www.facebook.com"><img src="images/icons/social_icons/facebook.png" alt="logo" class="social"></a>
-  <a href="http://www.twitter.com"><img sterc="images/icons/social_icons/twitter.png" alt="logo" class="social"></a>
-  <a href="http://www.behance.com"><img src="images/icons/social_icons/behance.png" alt="logo" class="social"></a>
-  <a href="http://www.dribble.com"><img src="images/icons/social_icons/dribble.png" alt="logo" class="social"></a>
-  <a href="http://www.flickr.com"><img src="images/icons/social_icons/flickr.png" alt="logo" class="social"></a>
-  <a href="http://www.g_plus.com"><img sterc="images/icons/social_icons/g_plus.png" alt="logo" class="social"></a>
-  <a href="http://www.pinterest.com"><img src="images/icons/social_icons/pinterest.png" alt="logo" class="social"></a>
-  <a href="http://www.skype.com"><img src="images/icons/social_icons/skype.png" alt="logo" class="social"></a>
-  <a href="http://www.stumbleupon.com"><img src="images/icons/social_icons/stumble_upon.png" alt="logo" class="social"></a>
-  <a href="http://www.youtube.com"><img sterc="images/icons/social_icons/you_tube.png" alt="logo" class="social"></a>
+  <div class = "socials">
+    <a href="http://www.500px.com" target="_blank" ><img src="images/icons/social-icons/500px.png" alt="logo" class="social"></a>
+    <a href="http://www.facebook.com" target="_blank" ><img src="images/icons/social-icons/facebook.png" alt="logo" class="social"></a>
+    <a href="http://www.g_plus.com" target="_blank" ><img src="images/icons/social-icons/g_plus.png" alt="logo" class="social"></a>
+    <a href="http://www.instagram.com" target="_blank" ><img src="images/icons/social-icons/instagram.png" alt="logo" class="social"></a>
+    <a href="http://www.linkedin.com" target="_blank" ><img src="images/icons/social-icons/linkedin.png" alt="logo" class="social"></a>
+    <a href="http://www.pinterest.com" target="_blank" ><img src="images/icons/social-icons/pinterest.png" alt="logo" class="social"></a>
+    <a href="http://www.quora.com" target="_blank" ><img src="images/icons/social-icons/quora.png" alt="logo" class="social"></a>
+    <a href="http://www.reddit.com" target="_blank" ><img src="images/icons/social-icons/reddit.png" alt="logo" class="social"></a>
+    <a href="http://www.soundcloud.com" target="_blank" ><img src="images/icons/social-icons/soundcloud.png" alt="logo" class="social"></a>
+    <a href="http://www.skype.com" target="_blank" ><img src="images/icons/social-icons/skype.png" alt="logo" class="social"></a>
+    <a href="http://www.twitter.com" target="_blank" ><img src="images/icons/social-icons/twitter.png" alt="logo" class="social"></a>
+    <a href="http://www.whatsapp.com" target="_blank" ><img src="images/icons/social-icons/whatsapp.png" alt="logo" class="social"></a>
+    <a href="http://www.wordpress.com" target="_blank" ><img src="images/icons/social-icons/wordpress.png" alt="logo" class="social"></a>
+    <a href="http://www.youtube.com" target="_blank" ><img src="images/icons/social-icons/youtube.png" alt="logo" class="social"></a>
+  </div>
   <h5>DELANI STUDIO <br> 2019</h5>
+
 </div>
 
 </div>

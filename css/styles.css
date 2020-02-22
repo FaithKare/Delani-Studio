@@ -1,51 +1,58 @@
 #delani1 {
   font-family: 'Comfortaa';
-  font-size: 16px;
-  line-height: 2;
+  font-size: 18px;
+  line-height: 3;
 }
-#welcome {
-  background-image: url("background.jpg");
-  background-color: #daa520;
+.welcome {
+  background-image: url('../images/backgrounds/h_img.jpg');
   text-align: center;
   color: white;
-
-}
-#mouse {
-  padding-top: 5rem;
-  padding-bottom: 4rem:
-}
-
-#about {
-  text-align: center;
-  padding: 2rem;
-}
-#services {
-  text-align: center;
-  padding: 3rem;
-  background-image:url('images/backgrounds/background.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
   background-size: cover;
-}
-#whatwedo {
-  text-align: center;
-}
-#portfolio {
-  text-align: center;
+  background-position: center;
+  padding: 10rem;
 
 }
-#contact {
+.about {
   text-align: center;
+  padding: 5rem;
 }
-#footer {
+
+.services {
   text-align: center;
+  background-image: url('../images/backgrounds/s_image.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 5rem;
+  color: white;
 }
-#workdone {
-  position: absolute;
-  height: 250px;
+.whatwedo{
+  text-align: center;
+  padding: 5rem;
+}
+.contact {
+  background-image: url('../images/backgrounds/c_image.jpg');
+  text-align: center;
+  color: white;
+  padding: 5rem;
+}
+.footer {
+  text-align: center;
+  padding: 5rem;
+}
+
+#mouse {
+  padding-top: 10rem;
+
+}
+
 }
 h4 {
   text-align: justify;
+}
+h1 {
+  padding: .5rem;
+  line-height: 5;
+
 }
 
 font-family: 'Montserrat', ;
@@ -98,4 +105,7 @@ input[type=submit]:hover {
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
+}
+#logo {
+  padding: 4rem;
 }

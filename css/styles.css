@@ -24,6 +24,7 @@
   background-size: cover;
   padding: 5rem;
   color: white;
+  font-weight: bold;
 }
 .whatwedo{
   text-align: center;
@@ -37,7 +38,7 @@
 }
 .footer {
   text-align: center;
-  padding: 5rem;
+  padding: 2rem;
 }
 
 #mouse {
@@ -108,4 +109,10 @@ input[type=submit]:hover {
 }
 #logo {
   padding: 4rem;
+}
+.col4 {
+  display: table-cell;
+}
+.social {
+  padding: 1%;
 }

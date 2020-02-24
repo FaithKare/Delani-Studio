@@ -1,5 +1,7 @@
 
 
+
+
 $(document).ready(function() {
   $(".design").click(function() {
     $("#design-hidden").toggle();
@@ -28,27 +30,16 @@ $('img.workdone').hover(function(){
       $(this).css('opacity', '1');
     }
 );
-function validateForm() {
-  var x = document.forms["contactUs"]["fname"].value;
-  if (x == "") {
-    alert("Name must be filled out");
-    return false;
-  }
-}
-function validateForm() {
-  var x = document.forms["contactUs"]["email"].value;
-  if (x == "") {
-    alert("Email must be filled out");
-    return false;
-  }
-}
-function validateForm() {
-  var x = document.forms["contactUs"]["subject"].value;
-  if (x == "") {
-    alert("Please write you comment.");
-    return false;
-  }
-}
+
+/* $('.img1').hover(function() {
+        $(this).find('.text1').fadeIn(300);
+      }, function() {
+        $(this).find('.text1').fadeOut(100);
+      })
+
+
+
+/* Validation of contact form */
 function validateForm() {
 
 var x=document.forms["contactUs"]["name"].value;

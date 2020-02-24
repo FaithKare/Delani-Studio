@@ -2,14 +2,15 @@
 
 ## Delani Studio (https://aenshtyn.github.io/Delani-Studio/)
 
-Webpage that provides user with their Akan name based on their birthdarte inputs, {07 Feb 2020}
+This is Delani Studios website. Showing a bit of their work
 
 #### By
 
+Mohamed
 
 ## Description
 
-This is a web application that takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name. Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born. Here are Ghanian day names.
+This is Delani Studios website. Delani studios designs and develops software for their clients. On the site there is there portfolio..
 
 ## Setup/Installation Requirements
 
@@ -17,7 +18,9 @@ This is a website and has no setup Requirements once uploaded to the
 
 ## Known Bugs
 
-The site only calcultes male names at the moment.
+.The css file got messed up abit and needs some cleaning
+The hover effect on the portfolio side doesnt work as expected.
+The alighnment on the what we do section needs correction as the media query doesnt work as expected.
 
 ## Technologies Used
 

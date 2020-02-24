@@ -1,58 +1,154 @@
+/* Body */
 #delani1 {
-  font-family: 'Comfortaa';
-  font-size: 18px;
-  line-height: 3;
+font-family: 'Comfortaa';
+font-size: 18px;
+line-height: 3;
+  align-items: center;
 }
+/* Homepage */
 .welcome {
-  background-image: url('../images/backgrounds/h_img.jpg');
-  text-align: center;
-  color: white;
-  background-size: cover;
-  background-position: center;
-  padding: 10rem;
-
-}
-.about {
-  text-align: center;
-  padding: 5rem;
-}
-
-.services {
-  text-align: center;
-  background-image: url('../images/backgrounds/s_image.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 5rem;
-  color: white;
-}
-.whatwedo{
-  text-align: center;
-  padding: 5rem;
-}
-.contact {
-  background-image: url('../images/backgrounds/c_image.jpg');
-  text-align: center;
-  color: white;
-  padding: 5rem;
-}
-.footer {
-  text-align: center;
-  padding: 5rem;
+background-image: url('../images/backgrounds/h_img.jpg');
+text-align: center;
+color: white;
+background-size: cover;
+background-position: center;
+display: block;
+padding: 10rem;
+width: 100%;
 }
 
 #mouse {
-  padding-top: 10rem;
-
+padding-top: 10rem;
 }
 
+/* About */
+.about {
+text-align: center;
+padding: 5rem;
 }
+/* Services */
+.services {
+text-align: center;
+background-image: url('../images/backgrounds/s_image.jpg');
+background-size: cover;
+padding-bottom: 4rem;
+padding-top: 5rem;
+
+color: white;
+}
+/* What we do */
+.whatwedo {
+text-align: center;
+padding: 5rem;
+}
+
+
+
+/* Portfolio */
+.portfolio {
+text-align: center;
+padding: 5rem;
+max-width: 1000px;
+}
+
+.main {
+max-width: 1000px;
+margin: auto;
+}
+
+.row {
+margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row > .column {
+padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.columnp {
+float: left;
+width: 25%;
+}
+
+/* Clear floats after rows */
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+
+/* Content */
+.content {
+background-color: white;
+padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+.column {
+  width: 50%;
+}
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+.column {
+  width: 100%;
+}
+}
+
+
+
+/* Contact */
+.contact {
+background-image: url('../images/backgrounds/c_image.jpg');
+text-align: center;
+color: white;
+padding: 5rem;
+}
+/* Footer */
+
+.footer {
+text-align: center;
+padding: 2rem;
+}
+
+.socials {
+padding: 2rem;
+}
+.social {
+width: 2rem;
+margin: 1rem;
+}
+
+
+
 h4 {
-  text-align: justify;
+text-transform: uppercase;
 }
 h1 {
-  padding: .5rem;
-  line-height: 5;
+padding: 2rem;
+text-transform: uppercase;
+line-height: 5;
+weight: bold;
+}
 
+h6 {
+text-transform: uppercase;
+weight: bold;
+line-height: 6;
+}
+
+h2 {
+text-transform: uppercase;
+weight: bold;
+}
+
+h5 {
+text-transform: uppercase;
+weight: bold;
 }
 
 font-family: 'Montserrat', ;
@@ -62,50 +158,144 @@ font-family: 'Mukta', ;
 font-family: 'Comfortaa', ;
 
 .center {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-#devp{
-  display: none;
-}
-#designp {
-  display: none;
-}
-#prodp{
-  display: none;
+display: flex;
+align-items: center;
+justify-content: center;
 }
 
 input[type=text], select, textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
+width: 100%;
+padding: 12px;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+margin-top: 6px;
+margin-bottom: 16px;
+resize: vertical;
 }
 
 input[type=submit] {
-  background-color: #4CAF50;
+background-color: #4CAF50;
+color: white;
+padding: 12px 20px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}
+
+input[type=submit]:hover {
+background-color: #45a049;
+}
+
+.container {
+border-radius: 5px;
+background-color: #f2f2f2;
+padding: 20px;
+}
+#logo {
+padding: 4rem;
+}
+.col4 {
+display: block;
+margin-left: auto;
+margin-right: auto;
+max-height: 90px;
+}
+.col4 img {
+padding: 5rem;
+}
+
+#designp {
+display: none;
+}
+#devp {
+display: none;
+}
+#prodp {
+  display: none;
+}
+.columnp {
+  float: left;
+  width: 25%;
+}
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  background: transparent;
+  width: 100%;
+  padding: 12px;
+  border: 2px solid white;
+  border-radius: 6px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  color: white;
+}
+
+input[type=submit] {
+  background-color: grey;
   color: white;
   padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
+  border-radius: 3px;
   cursor: pointer;
 }
 
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: #daa520;
 }
 
-.container {
+/* Style the container/contact section */
+.contcontainer {
   border-radius: 5px;
-  background-color: #f2f2f2;
+  padding: 5%;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
   padding: 20px;
 }
-#logo {
-  padding: 4rem;
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+.column, {
+    width: 100%;
+}
+::placeholder {
+  color :white;
+}
+
+* {
+  box-sizing: border-box;
 }
